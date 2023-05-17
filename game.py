@@ -67,13 +67,13 @@ def run ():
 
     word = random.choice(DB)
     spaces = ["_"] * len(word)
-    attemps = 8
+    attemps = 5
 
     while True:
         os.system('cls')
         for character in spaces:
             print (character, end= " ")
-        print (IMAGES[attemps])    
+        print(IMAGES[attemps])    
         letter = input("ELIGE UNA LETRA: ").upper()
 
         found = False
